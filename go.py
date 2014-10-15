@@ -46,7 +46,7 @@ def download_files():
 		count += 1
 		print "[+] Image " + str(count)
 		filename = i.split("/")[-1] 
-		print "download_files: " + filename
+		#print "download_files: " + filename
 		
 		urllib.urlretrieve(i, dir + "/" + name + "/" +filename)
 
