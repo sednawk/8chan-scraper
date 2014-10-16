@@ -1,3 +1,7 @@
 # Scrape from 8chan
 
-$ python go.py threadurl /tmp/output
+> with thread name in folder
+$ python go.py -t threadurl -o /tmp/output -n
+
+> without
+$ python go.py -t threadurl -o /tmp/output
