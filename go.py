@@ -17,7 +17,6 @@ files = []
 
 parser = OptionParser()
 parser.add_option("-t", "--thread", dest="thread", help="Thread to scrape.", metavar="THREAD")
-
 parser.add_option("-o", "--out", dest="dir", help="Output directory.", metavar="DIRECTORY")
 parser.add_option("-n", "--new", dest="new", help="Save images into a folder named after the title.", default=None, action='store_true')
 
